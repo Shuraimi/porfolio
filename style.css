@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(252, 71, 176);
+  width: 434px;
+  height: 100vh;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  padding: 22px;
+  line-height: 74px;
+  font-size: 24px;
+  color: whitesmoke;
+}
+.sidebar nav li a:hover {
+  color: black;
+  font-weight: 600;
+}
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+  height: 100vh;
+  margin: 23px;
+}
+.container {
+  display: flex;
+}
+.infoContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+  height: 58vh;
+  /* background-color: darkmagenta; */
+  margin: 158px 0;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.name {
+  font-family: cursive;
+  font-size: 75px;
+  font-weight: 500;
+}
+.about {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.devPic img {
+  height: 234px;
+  border-radius: 100%;
+}
+.buttons button {
+  margin: 34px 5px;
+  padding: 9px 7px;
+  border-radius: 25px;
+  color: white;
+  background-color: springgreen;
+  font-weight: bold;
+  font-size: 20px;
+}
+.buttons button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(252, 71, 176);
+  color: black;
+}
+/*Contact form styling*/
+.button-sm button {
+  margin: 20px 5px;
+  padding: 5px 7px;
+  border-radius: 14px;
+  color: white;
+  background-color: springgreen;
+  font-weight: bold;
+  font-size: 14px;
+}
+.button-sm button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(252, 71, 176);
+  color: black;
+}
+.contactForm {
+  margin-top: 169px;
+  margin-left: 15px;
+}
+.contactForm input {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+  width: 16vw;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 9px 0;
+}
+.contactForm p {
+  font-size: 8px;
+}
+/* .contactForm .help input{
+    flex-direction: row;
+    width: 13px;
+} */
+#form-check {
+  flex-direction: row;
+}
+#form-check input {
+  width: 13px;
+}
+/*Blog styling*/
+.blogContainer {
+  margin: 15px;
+}
+.blogContainer h1 {
+  font-family: cursive;
+  margin: 7px 0;
+}
+.blogContainer h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px 0;
+}
+.blogContainer p {
+  font-family: "Times New Roman", Times, serif;
+}
+@media (max-width: 1000px) {
+  /* * {
+    background-color: aqua;
+  } */
+  .sidebar {
+    transform: translate(-434px, 0);
+    position: absolute;
+  }
+}
